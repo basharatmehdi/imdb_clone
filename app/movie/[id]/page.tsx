@@ -1,10 +1,22 @@
-const MovieDetail = () => {
+import { revalidatePath } from "next/cache";
+
+export const dynamic = "force-dynamic";
+
+let comment: string;
+const getComment = async (formData: FormData) => {
+  "use server";
+  comment = formData.get("comment") as string;
+  console.log(comment);
+  revalidatePath("/movie/[id]");
+  return comment;
+};
+const Comment = () => {
   return (
     <div>
       <h5 className="font-semibold mb-3">Comments</h5>
       <hr />
 
-      <form>
+      <form action={getComment}>
         <textarea
           name="comment"
           placeholder="Add a Comment..."
@@ -18,8 +30,10 @@ const MovieDetail = () => {
         </button>
       </form>
       <hr />
-      <div className="bg-teal-100/40 rounded p-2 mt-4">This is a comment.</div>
+      {comment && (
+        <div className="bg-teal-100/40 rounded p-2 mt-4">{comment}</div>
+      )}
     </div>
   );
 };
-export default MovieDetail;
+export default Comment;
