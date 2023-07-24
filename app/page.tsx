@@ -24,7 +24,7 @@ export default async function Home() {
         <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold text-center">
           Top Trending Movies
         </h2>
-        <div className="grid md:grid-cols-4 md:gap-3 xl:grid-cols-6 xl:gap-4 my-6 mx-auto">
+        <div className="grid md:grid-cols-4 md:gap-3 xl:grid-cols-5 xl:gap-4 my-6 mx-auto">
           {trendingMovies.results.map((movie) => {
             return <MovieCard key={movie.id} {...movie} />;
           })}
