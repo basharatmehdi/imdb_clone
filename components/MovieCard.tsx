@@ -11,9 +11,10 @@ const MovieCard = (props: TrendingCard) => {
           <Link href={`/movie/${id}`}>
             <Image
               src={`https://image.tmdb.org/t/p/w500${poster_path}`}
-              fill
+              width={500}
+              height={300}
               alt="movie image"
-              className="absolute object-cover group-hover:scale-110 transition duration-300"
+              className="absolute inset-0 object-cover group-hover:scale-110 transition duration-300"
             />
           </Link>
         </div>
