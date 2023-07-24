@@ -21,13 +21,13 @@ const MovieCard = (props: TrendingCard) => {
         <div className="py-4 px-2">
           <Link
             href={`/movie/${id}`}
-            className="font-semibold hover:text-teal-600 transition-colors duration-300"
+            className="font-semibold hover:text-teal-600 transition-colors duration-300 line-clamp-1"
           >
             {title}
           </Link>
           <p className="text-slate-600 text-sm line-clamp-3">{overview}</p>
         </div>
-        <div className="hidden text-xs text-white bg-teal-800 px-2 py-1 rounded-md absolute top-3 left-3 group-hover:block transition duration-300">
+        <div className="hidden text-xs text-white bg-teal-800 px-2 py-1 rounded-md absolute top-2 left-2 group-hover:block transition duration-300">
           Popularity: <span>{popularity.toFixed(2)}</span>
         </div>
       </div>

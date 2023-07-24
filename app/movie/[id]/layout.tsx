@@ -35,7 +35,7 @@ const MovieLayout = async ({
   return (
     <>
       <div>
-        <div className="w-full h-52 relative rounded-xl overflow-hidden">
+        <div className="w-full h-52 xl:h-72 relative rounded-xl overflow-hidden">
           {movieDetail.backdrop_path ? (
             <Image
               src={`https://image.tmdb.org/t/p/w500${movieDetail.backdrop_path}`}

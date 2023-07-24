@@ -4,8 +4,8 @@ export function IconSpinner({ className, ...rest }: { className: string }) {
       fill="none"
       viewBox="0 0 24 24"
       className={`${className}`}
-      height=""
-      width=""
+      height="6em"
+      width="6em"
       {...rest}
     >
       <path
