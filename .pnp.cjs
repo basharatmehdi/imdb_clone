@@ -28,7 +28,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@prisma/client", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:5.0.0"],\
             ["@types/node", "npm:20.4.2"],\
             ["@types/react", "npm:18.2.15"],\
             ["@types/react-dom", "npm:18.2.7"],\
@@ -37,7 +36,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:13.4.10"],\
             ["next", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:13.4.10"],\
             ["postcss", "npm:8.4.26"],\
-            ["prisma", "npm:5.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:18.2.0"],\
             ["tailwindcss", "npm:3.3.3"],\
@@ -405,47 +403,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["open", "npm:9.1.0"],\
             ["picocolors", "npm:1.0.0"],\
             ["tslib", "npm:2.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@prisma/client", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-44b7044efe/node_modules/@prisma/client/",\
-          "packageDependencies": [\
-            ["@prisma/client", "npm:5.0.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:5.0.0", {\
-          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-44b7044efe/node_modules/@prisma/client/",\
-          "packageDependencies": [\
-            ["@prisma/client", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:5.0.0"],\
-            ["@prisma/engines-version", "npm:4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584"],\
-            ["@types/prisma", null],\
-            ["prisma", "npm:5.0.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/prisma",\
-            "prisma"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@prisma/engines", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/unplugged/@prisma-engines-npm-5.0.0-9f601585ff/node_modules/@prisma/engines/",\
-          "packageDependencies": [\
-            ["@prisma/engines", "npm:5.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@prisma/engines-version", [\
-        ["npm:4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584", {\
-          "packageLocation": "./.yarn/cache/@prisma-engines-version-npm-4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584-4c61045fc7-8fcbceef3b.zip/node_modules/@prisma/engines-version/",\
-          "packageDependencies": [\
-            ["@prisma/engines-version", "npm:4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2636,7 +2593,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["imbd_clone", "workspace:."],\
-            ["@prisma/client", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:5.0.0"],\
             ["@types/node", "npm:20.4.2"],\
             ["@types/react", "npm:18.2.15"],\
             ["@types/react-dom", "npm:18.2.7"],\
@@ -2645,7 +2601,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-config-next", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:13.4.10"],\
             ["next", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:13.4.10"],\
             ["postcss", "npm:8.4.26"],\
-            ["prisma", "npm:5.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:71becbcbd251ba7830f30cc15636a95bb544d9b7102c4568012d925ee55456378cbe9c99b6c06642704ce131c579df074a1fefc1e084db1842bc2e13148c1523#npm:18.2.0"],\
             ["tailwindcss", "npm:3.3.3"],\
@@ -4010,16 +3965,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/prelude-ls-npm-1.2.1-3e4d272a55-cd192ec0d0.zip/node_modules/prelude-ls/",\
           "packageDependencies": [\
             ["prelude-ls", "npm:1.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["prisma", [\
-        ["npm:5.0.0", {\
-          "packageLocation": "./.yarn/unplugged/prisma-npm-5.0.0-f854c0a4f2/node_modules/prisma/",\
-          "packageDependencies": [\
-            ["prisma", "npm:5.0.0"],\
-            ["@prisma/engines", "npm:5.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
